@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Core\Support\Controller;
 use App\Core\Providers\RouteServiceProvider;
-use App\User;
+use App\Repositories\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
